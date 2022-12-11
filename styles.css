@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+.hero-image {
+    background-image: url("images/palac.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.visit-txt {
+    background: rgba(52, 58, 64, 0.6);
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin-bottom: 8px;
+}
+
+.more-txt {
+    background: rgba(52, 58, 64, 0.6);
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin: 0px;
+}
+
+.hero-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 2px black;
+}
+
+.containar {
+text-align: center;
+background-color: #e7ecef;
+height: auto;
+}
+
+img {
+    width: 200px;
+    border-radius: 3px 3px 0 0;
+}
+
+.zamek-img:hover {
+    box-shadow: 0px 0px 16px #adb5bd;
+}
+
+.palac-img:hover {
+    box-shadow: 0px 0px 16px #adb5bd;
+}
+
+.dolina-img:hover {
+    box-shadow: 0px 0px 16px #adb5bd;
+}
+
+h3, p {
+margin: 0;
+padding: 15px 2px 5px 2px;
+}
+
+#activities {
+    height: 450px;
+    display: flex; 
+    justify-content:center;
+    border-bottom: solid 1px rgb(193, 190, 190);
+    padding-top: 15px;
+}
+
+.palac-img {
+    width: 200px;
+    height: 400px;
+    margin: 10px 15px 25px 15px;
+    background-color: #f4f3ee;
+    border-radius: 3px 3px 3px 3px;
+    border-bottom: solid 6px #6c757d;
+}
+.dolina-img {
+    height: 400px;
+    background-color: #f4f3ee;
+    border-radius: 3px 3px 3px 3px;
+    width: 200px;
+    margin: 10px 15px 25px 15px;
+    border-bottom: solid 6px #6c757d;
+}
+.zamek-img {
+    height: 400px;
+    width: 200px;
+    background-color: #f4f3ee;
+    margin: 10px 15px 25px 15px;
+    border-radius: 3px 3px 3px 3px;
+    border-bottom: solid 6px #6c757d;
+}
+
+.guide {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    height: 300px;
+    background-color: white;
+    justify-content: center;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px #adb5bd;
+}
+
+.guide-txt {
+    width: 250px;
+}
+
+.guide-card {
+    text-align: center;
+    width: 480px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color:#EEE4E1;
+    border-radius: 6px;
+    border-bottom: solid 6px #B2967D;
+    color: #5c4742;
+}
+
